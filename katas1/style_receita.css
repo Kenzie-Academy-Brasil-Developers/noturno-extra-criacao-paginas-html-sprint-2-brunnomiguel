@@ -1,1 +1,88 @@
-/* FOLHA DE ESTILO DA PAGINA DE RECEITAS */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/img-fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #0D1821;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 4px;
+}
+
+span {
+    color: #007991;
+}
+
+header {
+    width: 600px;
+    height: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E2DE84;
+    opacity: 0.9;
+    border-radius: 10px;
+    border-bottom: 2px #0D1821 solid;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+li, .receitas {
+    list-style-type: none;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #0D1821;
+    font-weight: bold;
+}
+
+main {
+    width: 600px;
+    height: 85vh;
+    border-radius: 10px;
+    background-color: #E2DE84;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+img {
+    width: 240px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1821;
+}
+
+.receitas a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ECFEAA;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #007991;
+    border-radius: 12px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}

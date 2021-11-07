@@ -1,1 +1,102 @@
-/* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("img/img-fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #007991;
+    width: 450px;
+    height: 125vh;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #E2DE84;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 28px;
+}
+
+#nome, fieldset, #profissao, #paises, #interesses, #como-conheceu, #cadastrar {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#nome, #profissao {
+    width: 375px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    justify-content: center;
+    border: 2px #0D1821 solid;
+}
+
+#paises, #interesses {
+    width: 380px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px #0D1821 solid;
+}
+
+#como-conheceu {
+    width: 375px;
+    height: 150px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px #0D1821 solid;
+}
+
+fieldset {
+    width: 350px;
+    margin-top: 10px;
+    border: 2px #0D1821 solid;
+    border-radius: 12px;
+}
+
+legend {
+    text-align: center;
+    color: #E2DE84;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #E2DE84;
+}
+
+select {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cadastrar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #0D1821;
+    color: #E2DE84;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+}

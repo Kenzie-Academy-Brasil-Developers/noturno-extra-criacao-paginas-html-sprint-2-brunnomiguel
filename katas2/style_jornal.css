@@ -1,1 +1,118 @@
-/* FOLHA DE ESTILO DA PAGINA DE JORNAL */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7f0c7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cabecalho-logo {
+    background-color: #ECFEAA;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho-logo img {
+    width: 110px;
+}
+
+.cabecalho-logo h1 {
+    font-size: 30px;
+    color: #0D1821;
+}
+
+.titulo-subtitulo h1 {
+    margin-bottom: 1px;
+}
+
+.titulo-subtitulo p {
+    margin-top: 1px;
+}
+
+.cabecalho-acesso {
+    background-color: #007991;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho-acesso button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #0D1821;
+    color: #E2DE84;
+    cursor: pointer;
+}
+
+.cabecalho-acesso ul {
+    display: flex;
+}
+
+.cabecalho-acesso ul li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.cabecalho-acesso ul li a {
+    color: #E2DE84;
+    padding: 12px;
+    font-size: 30px;
+}
+
+section a {
+    color: #E2DE84;
+    padding: 12px;
+    font-size: 30px;
+}
+
+.manchetes hr {
+    width: 260px;
+    border: 1px #0D1821 solid;
+}
+
+span {
+    text-decoration: underline;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    color: #0D1821;
+}
+
+article hr {
+    align-items: center;
+    width: 1250px;
+    color: #0D1821;
+    border: 1px #0D1821 solid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.manchetes h3 {
+    width: 250px;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+.manchetes img {
+    width: 250px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.manchetes figcaption {
+    font-size: 15px;
+}
+
+.manchetes p {
+    width: 250px;
+    text-align: justify;
+    margin-left: 40px;
+}
