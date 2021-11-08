@@ -9,7 +9,7 @@ body {
 
 main {
     background-color: #007991;
-    width: 450px;
+    width: 550px;
     height: 125vh;
     border-radius: 12px;
     margin-left: auto;
@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 h1 {
-    padding: 10px;
+    padding-top: 30px;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 }
 
 #nome, #profissao {
-    width: 375px;
+    width: 450px;
     height: 25px;
     border-radius: 10px;
     font-size: 16px;
@@ -47,14 +47,14 @@ h2 {
 }
 
 #paises, #interesses {
-    width: 380px;
+    width: 460px;
     height: 30px;
     border-radius: 8px;
     border: 2px #0D1821 solid;
 }
 
 #como-conheceu {
-    width: 375px;
+    width: 450px;
     height: 150px;
     border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,7 +62,7 @@ h2 {
 }
 
 fieldset {
-    width: 350px;
+    width: 430px;
     margin-top: 10px;
     border: 2px #0D1821 solid;
     border-radius: 12px;
@@ -78,7 +78,7 @@ legend {
 label {
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
