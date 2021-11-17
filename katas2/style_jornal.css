@@ -68,7 +68,7 @@ section a {
 }
 
 .manchetes hr {
-    width: 260px;
+    max-width: 260px;
     border: 1px #0D1821 solid;
 }
 
@@ -85,13 +85,14 @@ article h3 {
 
 article hr {
     align-items: center;
-    width: 1250px;
+    max-width: 1250px;
     color: #0D1821;
     border: 1px #0D1821 solid;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
